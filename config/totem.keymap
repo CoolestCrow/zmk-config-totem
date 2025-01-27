@@ -21,33 +21,14 @@
 
         default_layer {
             bindings = <
-            &kp Q  &kp W  &kp F    &kp P  &kp B        &kp J     &kp L      &kp U    &kp Y      &kp SEMI
-            &kp A  &kp R  &kp S    &kp T  &kp G        &kp M     &kp N      &kp E    &kp I      &kp O
-&kp ESCAPE  &kp Z  &kp C  &kp D    &kp V  &kp K        &kp H     &kp COMMA  &kp DOT  &kp SLASH  &kp LGUI  &kp LALT
-                          &kp TAB  &mo 1  &kp SPACE    &kp BKSP  &kp DEL    &kp RET
+            &kp Q  &kp W  &kp F    &kp P  &kp B        &kp J         &kp L      &kp U    &kp Y      &kp SEMI
+            &kp A  &kp R  &kp S    &kp T  &kp G        &kp M         &kp N      &kp E    &kp I      &kp O
+&kp ESCAPE  &kp Z  &kp C  &kp D    &kp V  &kp K        &kp H         &kp COMMA  &kp DOT  &kp SLASH  &kp LGUI  &kp LALT
+                          &kp TAB  &mo 0  &kp SPACE    &kp NUMBER_1  &kp DEL    &kp RET
             >;
         };
 
         // Layer 1: Numbers + Symbols  
-
-        layer_1 {
-            bindings = <
-           &kp EXCL   &kp AT    &kp HASH  &kp DLLR   &kp PRCNT    &kp CARET  &kp AMPS   &kp STAR  &kp LPAR   &kp RPAR
-           &kp NUM1   &kp NUM2  &kp NUM3  &kp NUM4   &kp NUM5     &kp LBRC   &kp RBRC   &kp PLUS  &kp MINUS  &kp PIPE
-&kp TILDE  &kp GRAVE  &kp LCBR  &kp RCBR  &kp EQUAL  &kp LT       &kp GT     &kp COLON  &kp DQT   &kp UNDER  &trans    &trans
-                                &trans    &trans     &trans       &trans     &trans     &trans
-            >;
-        };
-
         // Layer 2: Navigation + Function Keys  
-
-        layer_2 {
-            bindings = <
-         &kp F1   &kp F2   &kp F3   &kp F4   &kp F5        &kp HOME    &kp UP      &kp END     &kp PG_UP  &kp INS
-         &kp F6   &kp F7   &kp F8   &kp F9   &kp F10       &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN  &kp CAPS
-&kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &kp BT_NXT    &kp BT_PRV  &kp BT_CLR  &kp VOL_UP  &kp MUTE   &trans    &trans
-                           &trans   &trans   &trans        &trans      &trans      &trans
-            >;
-        };
     };
 };
